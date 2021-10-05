@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,17 +7,17 @@ public class Test : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //”z—ñ‚Ì‰Šú‰»
+        //é…åˆ—ã®åˆæœŸåŒ–
         int[] array = { 15, 23, 42, 56, 24 };
-        //”z—ñ‚Ì’†‚ğ‡”Ô‚É•\¦
+        //é…åˆ—ã®ä¸­ã‚’é †ç•ªã«è¡¨ç¤º
         for(int a = 0; a < array.Length; a++)
         {
             Debug.Log(array[a]);
         }
-        //‚³‚Á‚«‚Æ‚Í‹t‚Ì‡”Ô‚Å•\¦
+        //ã•ã£ãã¨ã¯é€†ã®é †ç•ªã§è¡¨ç¤º
         for(int a = array.Length; a > 0; a--)
         {
-            //array.Length=5‚È‚Ì‚Å-‚P‚·‚é
+            //array.Length=5ãªã®ã§-ï¼‘ã™ã‚‹
             Debug.Log(array[a-1]);
         }
     }
